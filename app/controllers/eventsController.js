@@ -1,4 +1,3 @@
-//http://api.bandsintown.com/artists/drake/events/search.json?api_version=2.0&app_id=eman125&location=New+York,NY&radius=25
 const rootUri = 'http://api.bandsintown.com/artists/'
 const app_id = 'eman14'
 

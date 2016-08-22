@@ -80,57 +80,7 @@ function getAlbums(artistId){
         var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
         chart.draw(data, options);
 
-        // google.visualization.events.addListener(chart, 'select', selectHandler);
 
-        //   function selectHandler(e) {
-        //     chart.setSelection(chart, kickOff())
-        //   }
         }
       }
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  //
-  // function appendAlbums() {
-  //   $('#artist_image .col-sm-6 #image').append(`<img src=${spotify_store.artist_albums[0].image} height="500" width="450">`)
-  //   $('.artist_name').append(`<h2> ${spotify_store.artist_albums[0].name}</h2>`)
-  //   $('.albums').append(`<h3> Albums by ${spotify_store.artist_albums[0].name}</h3>`)
-  //
-  //   for (var i = 1; i < 6; i++) {
-  //     $('.albums').append(`<div id=album${[i]}><ul> <img src=${spotify_store.artist_albums[i].album_image} height="75" width="75"></ul></div>`)
-  //     var album_tracks = spotify_store.artist_albums[i].tracks
-  //       album_tracks.forEach((track)=>{
-  //           $(`.albums #album${i} ul`).append(`<li> ${track}</li>`)
-  //       })
-  //   }
-  //
-
-
-  // (function () {
-  //   if (artist_store.artist[0] !== undefined) {
-  //     $(`.track-names`).hide()
-  //     $(`#${artist_store.artist[0].albums[0].id}`).mouseenter(function() {
-  //       $(`#${artist_store.artist[0].albums[0].id}`).show()
-  //     })
-  //     $(`#${artist_store.artist[0].albums[0].id}`).mouseleave(function() {
-  //       $(`#${artist_store.artist[0].albums[0].id}`).hide()
-  //     })
-  //   }
-  // }())
-
-    // $(function() {
-    //   if (artist_store.artist[0] !== undefined) {
-    //     $(`.artist-albums .album-tracks`).hide()
-    //     $(`.artist-albums .album-tracks #${artist_store.artist[0].albums[0].id}`).mouseenter(function() {
-    //       $(`.artist-albums .album-tracks #${artist_store.artist[0].albums[0].id}`).show()
-    //     })
-    //     $(`.artist-albums .album-tracks #${artist_store.artist[0].albums[0].id}`).mouseleave(function() {
-    //       $(`.artist-albums .album-tracks #${artist_store.artist[0].albums[0].id}`).hide()
-    //   })
-    // }
-    // })
+  

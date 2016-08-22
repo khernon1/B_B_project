@@ -1,4 +1,4 @@
-// kick off function on click
+  // kick off function on click
 $(document).ready(() => {
   $('#artist_form').on('submit',function(event){
     let artist = $('#artist').val()

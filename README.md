@@ -1,9 +1,8 @@
-# B_B_project
+Contributors:
+Emanuel Aharonoff - https://github.com/eaharonoff
+Gina Yeon - https://github.com/gyeon
+Kevin Hernon - https://github.com/khernon1
 
-flatiron.brewery@gmail.com
+Purpose: Search for an artist name and find their latest albums, news, and concerts
 
-MVC pattern possibilities
-- create an app.js file that initializes everything with new
-- every api request in a controller(times and spotify separately)
-- the data manipulation done in the model?
-- views 
+Technologies used: Javascript, jQuery, Handlebars
