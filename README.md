@@ -20,7 +20,9 @@ Spotify
 The Spotify API is used to capture artist, album, song, and related artist information. Multiple AJAX requests are required due to the construction of the API, with a description below.
 
 |___Artist table - artist ID is needed
+
     |___Album table - use the artist ID to gather the relevant albums and their IDs
+    
         |___Tracks table - album IDs used to populate tracks
 
 New York Times
