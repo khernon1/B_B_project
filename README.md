@@ -14,7 +14,7 @@
 
 **Information Sources:**
 
-ALl of the information gathering is coded in the relevant file under the controllers.
+All of the data gathering is coded in the relevant file in controllers.
  
 Spotify
 The Spotify API is used to capture artist, album, song, and related artist information. Multiple AJAX requests are required due to the construction of the API, with a description below.
@@ -33,6 +33,6 @@ BandsInTown
 
 The BandsInTown API allows the user to search for any upcoming concert events by location.
 
-The respective models are used to create new instances for each search.
+The respective models use ES6 syntax to create new instances for each search.
 
 
