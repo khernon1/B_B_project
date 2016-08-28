@@ -1,17 +1,17 @@
-Contributors:
-Emanuel Aharonoff - https://github.com/eaharonoff
+**Contributors:**
+**Emanuel Aharonoff** - https://github.com/eaharonoff
 
-Gina Yeon - https://github.com/gyeon
+**Gina Yeon** - https://github.com/gyeon
 
-Kevin Hernon - https://github.com/khernon1
+**Kevin Hernon** - https://github.com/khernon1
 
-Purpose: Search for an artist name and find their latest albums, news, and concerts
+**Purpose:** Search for an artist name and find their latest albums, news, and concerts
 
-Technologies used: Javascript, jQuery, Handlebars
+**Technologies used:** Javascript, jQuery, Handlebars
 
-Access: Fork/clone the repo and open the index.html file in your browser.
+**Access:** Fork/clone the repo and open the index.html file in your browser.
 
-Information Sources:
+**Information Sources:**
 
 ALl of the information gathering is coded in the relevant file under the controllers.
  
