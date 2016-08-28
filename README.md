@@ -19,16 +19,18 @@ ALl of the information gathering is coded in the relevant file under the control
 Spotify
 The Spotify API is used to capture artist, album, song, and related artist information. Multiple AJAX requests are required due to the construction of the API, with a description below.
 
-|___Artist table - artist ID is needed
+    |___Artist table - artist ID is needed
+        |___Album table - use the artist ID to gather the relevant albums and their IDs
+            |___Tracks table - album IDs used to populate tracks
 
-    |___Album table - use the artist ID to gather the relevant albums and their IDs
-    
-        |___Tracks table - album IDs used to populate tracks
+Google Charts is used to highlight related artists by Spotify followers.
 
 New York Times
 The NY Times Article Search API provides the recent news on the selected artist.
 
 BandsInTown
-The BandsInTown API allows the user to search for any upcoming convert events by location.
+The BandsInTown API allows the user to search for any upcoming concert events by location.
 
 The respective models are used to create new instances for each search.
+
+
