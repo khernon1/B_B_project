@@ -26,9 +26,11 @@ The Spotify API is used to capture artist, album, song, and related artist infor
 Google Charts is used to highlight related artists by Spotify followers.
 
 New York Times
+
 The NY Times Article Search API provides the recent news on the selected artist.
 
 BandsInTown
+
 The BandsInTown API allows the user to search for any upcoming concert events by location.
 
 The respective models are used to create new instances for each search.
