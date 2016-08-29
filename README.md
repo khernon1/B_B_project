@@ -1,3 +1,7 @@
+**See a demo below!**
+
+![Demo](https://cloud.githubusercontent.com/assets/17169813/18036601/ee585eaa-6d3c-11e6-97e2-ba6033a40531.gif)
+
 **Contributors:**
 
 **Emanuel Aharonoff** - https://github.com/eaharonoff
@@ -11,10 +15,6 @@
 **Technologies used:** Javascript, jQuery, Handlebars
 
 **Access:** Fork/clone the repo and open the index.html file in your browser.
-
-**See a demo below!**
-
-![Demo](https://cloud.githubusercontent.com/assets/17169813/18036601/ee585eaa-6d3c-11e6-97e2-ba6033a40531.gif)
 
 **Information Sources:**
 
